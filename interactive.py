@@ -39,7 +39,7 @@ with col3:
         unsafe_allow_html=True,
     )
 
-with col5:
+with col4:
     st.markdown(
         '<a href="https://dashboard-harga-barang.streamlit.app/" target="_blank" style="text-decoration:none;">'
         '<div style="background-color:#d8bfd8;padding:20px;text-align:center;border-radius:10px;">'
