@@ -2,5 +2,5 @@
 primaryColor = "#000000" # Warna utama
 backgroundColor = "#800000" # Warna latar belakang
 secondaryBackgroundColor = "#27c73e" # Warna latar belakang sekunder
-textColor = "F2E8C6" # Warna teks
+textColor = "FFF5E4" # Warna teks
 font = "Roboto" # Jenis font
