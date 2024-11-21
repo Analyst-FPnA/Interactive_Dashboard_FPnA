@@ -3,8 +3,11 @@ import streamlit as st
 # Judul Dashboard
 st.title("Interactive Dashboard FPnA")
 
-# Deskripsi
-st.markdown("# DASHBOARD")
+# Deskripsi dengan font khusus
+st.markdown(
+    "<h1 style='font-family:Roboto,sans-serif; font-size:20px; color:#800000;'>DASHBOARD</h1>", 
+    unsafe_allow_html=True
+)
 
 # Layout kotak interaktif
 app1, app2= st.columns(2)
