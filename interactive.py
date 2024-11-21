@@ -12,8 +12,8 @@ col1, col2= st.columns(2)
 with col1:
     st.markdown(
         '<a href="https://leadtime.streamlit.app/" target="_blank" style="text-decoration:none;">'
-        '<div style="background-color:#ffcccb;padding:20px;text-align:center;border-radius:10px;">'
-        '<strong>Leadtime Replenishment</strong></div>'
+        '<div style="background-color:#800000;padding:30px;text-align:center;border-radius:15px;">'
+        '<strong>LEADTIME REPLENISHMENT</strong></div>'
         '</a>',
         unsafe_allow_html=True,
     )
@@ -34,7 +34,7 @@ with col3:
     st.markdown(
         '<a href="https://dashboard-inventaris.streamlit.app/" target="_blank" style="text-decoration:none;">'
         '<div style="background-color:#90ee90;padding:20px;text-align:center;border-radius:10px;">'
-        '<strong>Inventaris Control</strong></div>'
+        '<strong>INVENTARIS CONTROL</strong></div>'
         '</a>',
         unsafe_allow_html=True,
     )
