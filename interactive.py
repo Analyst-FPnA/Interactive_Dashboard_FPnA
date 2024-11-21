@@ -12,7 +12,7 @@ col1, col2= st.columns(2)
 with col1:
     st.markdown(
         "<a href='https://leadtime.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 20px;'>"
+        "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
         "<strong style='color:white;'>LEADTIME REPLENISHMENT</strong></div>"
         "</a>",
         unsafe_allow_html=True,
@@ -21,7 +21,7 @@ with col1:
 with col2:
     st.markdown(
         "<a href='https://dashboard-harga-barang.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 14px;'>"
+        "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
         "<strong style='color:white;'>ANALISA PEMBELIAN BARANG</strong></div>"
         "</a>",
         unsafe_allow_html=True,
@@ -33,7 +33,7 @@ col3, col4 = st.columns(2)
 with col3:
     st.markdown(
         "<a href='https://dashboard-safetystock.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 20px;'>"
+        "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
         "<strong style='color:white;'>SAFETY STOCK & MOVEMENT</strong></div>"
         "</a>",
         unsafe_allow_html=True,
@@ -42,7 +42,7 @@ with col3:
 with col4:
     st.markdown(
         "<a href='https://dashboard-inventaris.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 20px;'>"
+        "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
         "<strong style='color:white;'>INVENTORY CONTROL</strong></div>"
         "</a>",
         unsafe_allow_html=True,
