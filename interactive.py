@@ -4,9 +4,6 @@ import streamlit as st
 st.title("Interactive Dashboard FPnA")
 
 # Deskripsi
-st.markdown("### Klik pada kotak di bawah untuk menuju ke halaman tertentu!")
-
-# Deskripsi
 st.markdown("# DASHBOARD")
 
 # Layout kotak interaktif
