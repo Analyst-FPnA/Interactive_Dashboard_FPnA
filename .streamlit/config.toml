@@ -1,6 +1,6 @@
 [theme]
 primaryColor = "#800000" # Warna utama
 backgroundColor = "#F2E8C6" # Warna latar belakang
-secondaryBackgroundColor = "#DAD4B5" # Warna latar belakang sekunder
+secondaryBackgroundColor = "#000000" # Warna latar belakang sekunder
 textColor = "#000000" # Warna teks
-font = "oswald" # Jenis font
+font = "Roboto" # Jenis font
