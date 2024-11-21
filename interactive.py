@@ -13,7 +13,7 @@ with col1:
     st.markdown(
         "<a href='https://leadtime.streamlit.app/' target='_blank' style='text-decoration:none;'>"
         "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 20px;'>"
-        "<strong style=color: black !important;>LEADTIME REPLENISHMENT</strong></div>"
+        "<strong style='color: black !important;'>LEADTIME REPLENISHMENT</strong></div>"
         "</a>",
         unsafe_allow_html=True,
     )
