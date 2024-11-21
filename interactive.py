@@ -5,7 +5,7 @@ st.title("Interactive Dashboard FPnA")
 
 # Deskripsi dengan font khusus
 st.markdown(
-    "<h1 style='font-family:Roboto,sans-serif; font-size:25px; color:#27c73e;'>DASHBOARD</h1>", 
+    "<h1 style='font-family:Roboto,sans-serif; font-size:25px; color:#c7273e;'>DASHBOARD</h1>", 
     unsafe_allow_html=True
 )
 
@@ -15,7 +15,7 @@ app1, app2= st.columns(2)
 with app1:
     st.markdown(
         "<a href='https://leadtime.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#27c73e;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
+        "<div style='background-color:#c7273e;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
         "<strong style='color:white;'>LEADTIME REPLENISHMENT</strong></div>"
         "</a>",
         unsafe_allow_html=True,
@@ -24,7 +24,7 @@ with app1:
 with app2:
     st.markdown(
         "<a href='https://dashboard-harga-barang.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#27c73e;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
+        "<div style='background-color:#c7273e;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
         "<strong style='color:white;'>ANALISA PEMBELIAN BARANG</strong></div>"
         "</a>",
         unsafe_allow_html=True,
@@ -36,7 +36,7 @@ app3, app4 = st.columns(2)
 with app3:
     st.markdown(
         "<a href='https://dashboard-safetystock.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#27c73e;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
+        "<div style='background-color:#c7273e;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
         "<strong style='color:white;'>SAFETY STOCK & MOVEMENT</strong></div>"
         "</a>",
         unsafe_allow_html=True,
@@ -45,7 +45,7 @@ with app3:
 with app4:
     st.markdown(
         "<a href='https://dashboard-inventaris.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#27c73e;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
+        "<div style='background-color:#c7273e;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
         "<strong style='color:white;'>INVENTORY CONTROL</strong></div>"
         "</a>",
         unsafe_allow_html=True,
@@ -57,7 +57,7 @@ app5, app6 = st.columns(2)
 with app5:
     st.markdown(
         "<a href='https://https://dashboard-selisih-ojol.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#27c73e;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
+        "<div style='background-color:#c7273e;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
         "<strong style='color:white;'>REKAP SELISIH OJOL</strong></div>"
         "</a>",
         unsafe_allow_html=True,
@@ -66,7 +66,7 @@ with app5:
 with app6:
     st.markdown(
         "<a href='https://dashboard-promix.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#27c73e;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
+        "<div style='background-color:#c7273e;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
         "<strong style='color:white;'>PRODUCT MIX</strong></div>"
         "</a>",
         unsafe_allow_html=True,
@@ -80,18 +80,18 @@ tool1, tool2= st.columns(2)
 
 with tool1:
     st.markdown(
-        "<a href='https://leadtime.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#27c73e;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
-        "<strong style='color:white;'>LEADTIME REPLENISHMENT</strong></div>"
+        "<a href='https://abo-analyst.streamlit.app/' target='_blank' style='text-decoration:none;'>"
+        "<div style='background-color:#c7273e;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
+        "<strong style='color:white;'>Automatic Breakdown Ojol</strong></div>"
         "</a>",
         unsafe_allow_html=True,
     )
 
 with tool2:
     st.markdown(
-        "<a href='https://dashboard-harga-barang.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#27c73e;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
-        "<strong style='color:white;'>ANALISA PEMBELIAN BARANG</strong></div>"
+        "<a href='https://dashboard-gis-cleaning-and-rekap-scm.streamlit.app/' target='_blank' style='text-decoration:none;'>"
+        "<div style='background-color:#c7273e;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
+        "<strong style='color:white;'>GIS Cleaning & REKAP SCM</strong></div>"
         "</a>",
         unsafe_allow_html=True,
     )
