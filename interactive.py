@@ -7,12 +7,12 @@ st.title("Interactive Dashboard FPnA")
 st.markdown("### Klik pada kotak di bawah untuk menuju ke halaman tertentu!")
 
 # Deskripsi
-st.markdown("DASHBOARD")
+st.markdown("# DASHBOARD")
 
 # Layout kotak interaktif
-col1, col2= st.columns(2)
+app1, app2= st.columns(2)
 
-with col1:
+with app1:
     st.markdown(
         "<a href='https://leadtime.streamlit.app/' target='_blank' style='text-decoration:none;'>"
         "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
@@ -21,7 +21,7 @@ with col1:
         unsafe_allow_html=True,
     )
 
-with col2:
+with app2:
     st.markdown(
         "<a href='https://dashboard-harga-barang.streamlit.app/' target='_blank' style='text-decoration:none;'>"
         "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
@@ -31,9 +31,9 @@ with col2:
     )
 
 # Baris kedua
-col3, col4 = st.columns(2)
+app3, app4 = st.columns(2)
 
-with col3:
+with app3:
     st.markdown(
         "<a href='https://dashboard-safetystock.streamlit.app/' target='_blank' style='text-decoration:none;'>"
         "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
@@ -42,7 +42,7 @@ with col3:
         unsafe_allow_html=True,
     )
 
-with col4:
+with app4:
     st.markdown(
         "<a href='https://dashboard-inventaris.streamlit.app/' target='_blank' style='text-decoration:none;'>"
         "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
@@ -52,9 +52,9 @@ with col4:
     )
 
 # Baris ketiga
-col5, col6 = st.columns(2)
+app5, app6 = st.columns(2)
 
-with col5:
+with app5:
     st.markdown(
         "<a href='https://https://dashboard-selisih-ojol.streamlit.app/' target='_blank' style='text-decoration:none;'>"
         "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
@@ -63,11 +63,35 @@ with col5:
         unsafe_allow_html=True,
     )
 
-with col6:
+with app6:
     st.markdown(
         "<a href='https://dashboard-promix.streamlit.app/' target='_blank' style='text-decoration:none;'>"
         "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
         "<strong style='color:white;'>PRODUCT MIX</strong></div>"
+        "</a>",
+        unsafe_allow_html=True,
+    )
+
+# Deskripsi
+st.markdown("# TOOLS")
+
+# Layout kotak interaktif
+tool1, tool2= st.columns(2)
+
+with tool1:
+    st.markdown(
+        "<a href='https://leadtime.streamlit.app/' target='_blank' style='text-decoration:none;'>"
+        "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
+        "<strong style='color:white;'>LEADTIME REPLENISHMENT</strong></div>"
+        "</a>",
+        unsafe_allow_html=True,
+    )
+
+with tool2:
+    st.markdown(
+        "<a href='https://dashboard-harga-barang.streamlit.app/' target='_blank' style='text-decoration:none;'>"
+        "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
+        "<strong style='color:white;'>ANALISA PEMBELIAN BARANG</strong></div>"
         "</a>",
         unsafe_allow_html=True,
     )
