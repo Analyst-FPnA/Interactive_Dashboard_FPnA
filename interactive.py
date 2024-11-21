@@ -20,10 +20,10 @@ with col1:
 
 with col2:
     st.markdown(
-        '<a href="https://dashboard-safetystock.streamlit.app/" target="_blank" style="text-decoration:none;">'
-        '<div style="background-color:#add8e6;padding:20px;text-align:center;border-radius:10px;">'
-        '<strong>Safety Stock & Movement Monitoring</strong></div>'
-        '</a>',
+        "<a href='https://dashboard-harga-barang.streamlit.app/' target='_blank' style='text-decoration:none;'>"
+        "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 20px;'>"
+        "<strong style='color:white;'>ANALISA PEMBELIAN BARANG</strong></div>"
+        "</a>",
         unsafe_allow_html=True,
     )
 
@@ -32,18 +32,18 @@ col3, col4 = st.columns(2)
 
 with col3:
     st.markdown(
-        '<a href="https://dashboard-inventaris.streamlit.app/" target="_blank" style="text-decoration:none;">'
-        '<div style="background-color:#90ee90;padding:20px;text-align:center;border-radius:10px;">'
-        '<strong>INVENTARIS CONTROL</strong></div>'
-        '</a>',
+        "<a href='https://dashboard-safetystock.streamlit.app/' target='_blank' style='text-decoration:none;'>"
+        "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 20px;'>"
+        "<strong style='color:white;'>SAFETY STOCK & MOVEMENT</strong></div>"
+        "</a>",
         unsafe_allow_html=True,
     )
 
 with col4:
     st.markdown(
-        '<a href="https://dashboard-harga-barang.streamlit.app/" target="_blank" style="text-decoration:none;">'
-        '<div style="background-color:#d8bfd8;padding:20px;text-align:center;border-radius:10px;">'
-        '<strong>Harga Barang</strong></div>'
-        '</a>',
+        "<a href='https://dashboard-inventaris.streamlit.app/' target='_blank' style='text-decoration:none;'>"
+        "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 20px;'>"
+        "<strong style='color:white;'>INVENTORY CONTROL</strong></div>"
+        "</a>",
         unsafe_allow_html=True,
     )
