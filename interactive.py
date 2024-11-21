@@ -84,7 +84,7 @@ tool1, tool2, tool3= st.columns(3)
 with tool1:
     st.markdown(
         "<a href='https://abo-analyst.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#982B1C;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
+        "<div style='background-color:#982B1C;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 12px;'>"
         "<strong style='color:white;'>Automatic Breakdown Ojol</strong></div>"
         "</a>",
         unsafe_allow_html=True,
@@ -93,7 +93,7 @@ with tool1:
 with tool2:
     st.markdown(
         "<a href='https://dashboard-gis-cleaning-and-rekap-scm.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#982B1C;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
+        "<div style='background-color:#982B1C;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 12px;'>"
         "<strong style='color:white;'>GIS Cleaning & REKAP SCM</strong></div>"
         "</a>",
         unsafe_allow_html=True,
@@ -102,7 +102,7 @@ with tool2:
 with tool3:
     st.markdown(
         "<a href='https://9901-error-checking.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#982B1C;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
+        "<div style='background-color:#982B1C;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 12px;'>"
         "<strong style='color:white;'>Automate Error Checking</strong></div>"
         "</a>",
         unsafe_allow_html=True,
