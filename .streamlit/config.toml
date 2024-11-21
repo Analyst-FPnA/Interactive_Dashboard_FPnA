@@ -1,6 +1,6 @@
 [theme]
 primaryColor = "#000000" # Warna utama
-backgroundColor = "#982B1C" # Warna latar belakang
-secondaryBackgroundColor = "#800000" # Warna latar belakang sekunder
-textColor = "F2E8C6" # Warna teks
+backgroundColor = "#004A55" # Warna latar belakang
+secondaryBackgroundColor = "#F87D09" # Warna latar belakang sekunder
+textColor = "F6F6F6" # Warna teks
 font = "Roboto" # Jenis font
