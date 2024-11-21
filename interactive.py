@@ -21,7 +21,7 @@ with col1:
 with col2:
     st.markdown(
         "<a href='https://dashboard-harga-barang.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 20px;'>"
+        "<div style='background-color:#800000;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 14px;'>"
         "<strong style='color:white;'>ANALISA PEMBELIAN BARANG</strong></div>"
         "</a>",
         unsafe_allow_html=True,
