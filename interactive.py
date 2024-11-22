@@ -102,7 +102,7 @@ with tool2:
 with tool3:
     st.markdown(
         "<a href='https://9901-error-checking.streamlit.app/' target='_blank' style='text-decoration:none;'>"
-        "<div style='background-color:#982B1C;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 12px;'>"
+        "<div style='background-color:#982B1C;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 11px;'>"
         "<strong style='color:white;'>Automate Error Checking (99.01)</strong></div>"
         "</a>",
         unsafe_allow_html=True,
