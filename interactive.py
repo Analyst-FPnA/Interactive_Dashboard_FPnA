@@ -56,7 +56,7 @@ app5, app6 = st.columns(2)
 
 with app5:
     st.markdown(
-        "<a href='https://https://dashboard-selisih-ojol.streamlit.app/' target='_blank' style='text-decoration:none;'>"
+        "<a href='https://dashboard-selisih-ojol.streamlit.app/' target='_blank' style='text-decoration:none;'>"
         "<div style='background-color:#982B1C;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
         "<strong style='color:white;'>REKAP SELISIH OJOL</strong></div>"
         "</a>",
