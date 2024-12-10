@@ -56,9 +56,9 @@ app5, app6 = st.columns(2)
 
 with app5:
     st.markdown(
-        "<a href='https://dashboard-selisih-ojol.streamlit.app/' target='_blank' style='text-decoration:none;'>"
+        "<a href='https://dashboard-promix-websmart.streamlit.app/' target='_blank' style='text-decoration:none;'>"
         "<div style='background-color:#982B1C;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
-        "<strong style='color:white;'>REKAP SELISIH OJOL</strong></div>"
+        "<strong style='color:white;'>PRODUCT MIX (Web Smart)</strong></div>"
         "</a>",
         unsafe_allow_html=True,
     )
@@ -67,7 +67,19 @@ with app6:
     st.markdown(
         "<a href='https://dashboard-promix.streamlit.app/' target='_blank' style='text-decoration:none;'>"
         "<div style='background-color:#982B1C;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
-        "<strong style='color:white;'>PRODUCT MIX</strong></div>"
+        "<strong style='color:white;'>PRODUCT MIX (GIS)</strong></div>"
+        "</a>",
+        unsafe_allow_html=True,
+    )
+
+# Baris keempat
+app7= st.columns(2)
+
+with app7[0]:
+    st.markdown(
+        "<a href='https://dashboard-selisih-ojol.streamlit.app/' target='_blank' style='text-decoration:none;'>"
+        "<div style='background-color:#982B1C;padding:20px;text-align:center;border-radius:10px;color:black; font-family:Roboto,sans-serif; font-size: 16px;'>"
+        "<strong style='color:white;'>REKAP SELISIH OJOL</strong></div>"
         "</a>",
         unsafe_allow_html=True,
     )
